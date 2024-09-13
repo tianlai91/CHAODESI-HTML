@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="TechyDevs" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chaodesi - Michigan’s Premier Classifieds Platform</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- start per-loader -->
+    <div class="loader-container">
+      <div class="loader-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- end per-loader -->
+
+    <!-- ================================
+            START HEADER AREA
+================================= -->
+     <header class="header-area header--area border-bottom border-bottom-gray">
+      <div class="main-header py-3 bg-white unfixed shadow-none">
+        <div class="container">
+          <div class="main-header-action-wrap">
+            <div class="logo">
+              <a href="index.html"><img src="images/logo2.png" alt="logo" /></a>
+            </div>
+            <!-- end logo -->
+            <nav class="main-menu me-4 ms-auto main-menu-black">
+				<ul>
+					<li>
+					  <a href="index.html">Home</a>
+				    </li>
+					<li>
+					  <a href="all-categories.html">Categories</a>
+					</li>
+					<li>
+					  <a href="list-left-sidebar.html">Listings <span class="fal fa-angle-down"></span></a>
+					  <ul class="dropdown-menu-item">
+						<li><a href="listing-details.html">listing details</a></li>
+						<li><a href="add-listing.html">add listing</a></li>
+					  </ul>
+					</li>
+					<li>
+					  <a href="#">Pages <span class="fal fa-angle-down"></span></a>
+					  <ul class="dropdown-menu-item">
+						<li><a href="user-profile.html">user profile</a></li>
+						
+						<li><a href="dashboard.html">dashboard</a></li>
+						<li><a href="booking.html">booking </a></li>
+						<li>
+						  <a href="booking-confirmation.html"
+							>booking confirmation
+						  </a>
+						</li>
+						<li><a href="invoice.html">invoice</a></li>
+						<li><a href="pricing.html">pricing</a></li>
+						<li><a href="about.html">about</a></li>
+						<li><a href="faq.html">faq</a></li>
+						<li><a href="contact.html">contact</a></li>
+						<li><a href="page-404.html">404 page</a></li>
+						<li><a href="recover.html">recover pass</a></li>
+					  </ul>
+					</li>
+					<li>
+					  <a href="blog-grid.html">Blog </a>
+					</li>
+				</ul>
+            </nav>
+            <div class="nav-right-content d-flex align-items-center">
+              <div class="author-access-list me-3 author-access-list-black">
+                <a href="login.html">Login</a>
+                <span class="or-text">or</span>
+                <a href="sign-up.html">Sign Up</a>
+              </div>
+              <a href="add-listing.html" class="theme-btn">
+                <span class="fal fa-plus me-1"></span>
+                Add Listing
+              </a>
+              <div class="side-menu-open ms-2 side-menu-open-black">
+                <i class="fal fa-bars"></i>
+              </div>
+              <!-- end side-menu-open -->
+            </div>
+            <!-- end nav-right-content -->
+          </div>
+          <!-- end main-header-action-wrap -->
+        </div>
+        <!-- end container-fluid -->
+      </div>
+      <!-- end main-header -->
+      <div class="off-canvas">
+        <div
+          class="off-canvas-close icon-element icon-element-sm bg-white shadow-sm"
+        >
+          <i class="fal fa-times"></i>
+        </div>
+        <!-- end off-canvas-close -->
+        <ul class="off-canvas-menu padding-top-60px">
+          <li>
+            <a href="user-profile.html#"
+              >Home <span class="fal fa-angle-down sub-menu-toggler"></span
+            ></a>
+            <ul class="off-canvas-sub-menu">
+              <li><a href="index.html">Home one</a></li>
+              <li><a href="index2.html">Home two </a></li>
+              <li><a href="index3.html">Home three</a></li>
+              <li><a href="index4.html">Home four</a></li>
+              <li><a href="index5.html">Home five</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="user-profile.html#"
+              >Categories
+              <span class="fal fa-angle-down sub-menu-toggler"></span
+            ></a>
+            <ul class="off-canvas-sub-menu">
+              <li><a href="all-categories.html">All categories</a></li>
+              <li><a href="all-locations.html">All locations</a></li>
+              <li><a href="top-place.html">Top places </a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="user-profile.html#"
+              >Listings <span class="fal fa-angle-down sub-menu-toggler"></span
+            ></a>
+            <ul class="off-canvas-sub-menu">
+              <li><a href="listing-grid.html">Listing grid</a></li>
+              <li><a href="list-with-map.html">list with map</a></li>
+              <li><a href="grid-with-map.html">grid with map</a></li>
+              <li><a href="listing-list.html">Listing list </a></li>
+              <li><a href="list-left-sidebar.html">Left sidebar </a></li>
+              <li><a href="list-right-sidebar.html">Right sidebar </a></li>
+              <li><a href="listing-details.html">Listing details</a></li>
+              <li><a href="add-listing.html">Add listing</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="user-profile.html#"
+              >Pages <span class="fal fa-angle-down sub-menu-toggler"></span
+            ></a>
+            <ul class="off-canvas-sub-menu">
+              <li><a href="user-profile.html">user profile</a></li>
+             
+              <li><a href="dashboard.html">dashboard</a></li>
+              <li><a href="booking.html">booking </a></li>
+              <li>
+                <a href="booking-confirmation.html">booking confirmation </a>
+              </li>
+              <li><a href="invoice.html">invoice</a></li>
+              <li><a href="pricing.html">pricing</a></li>
+              <li><a href="about.html">about</a></li>
+              <li><a href="faq.html">faq</a></li>
+              <li><a href="contact.html">contact</a></li>
+              <li><a href="page-404.html">404 page</a></li>
+              <li><a href="recover.html">recover pass</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="user-profile.html#"
+              >blog <span class="fal fa-angle-down sub-menu-toggler"></span
+            ></a>
+            <ul class="off-canvas-sub-menu">
+              <li><a href="blog-full-width.html">full width</a></li>
+              <li><a href="blog-grid.html">blog grid</a></li>
+              <li><a href="blog-left-sidebar.html">left sidebar </a></li>
+              <li><a href="blog-right-sidebar.html">right sidebar </a></li>
+              <li><a href="blog-single.html">blog detail</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="mt-4 text-center">
+          <a href="login.html" class="theme-btn me-2">Login</a>
+          <a href="sign-up.html" class="theme-btn">Sign up</a>
+        </div>
+      </div>
+      <!-- end off-canvas -->
+    </header>
+    <!-- ================================
+         END HEADER AREA
+================================= -->
+
+    <!-- ================================
+    START BREADCRUMB AREA
+================================= -->
+    <section class="breadcrumb-area bread-bg">
+      <div class="overlay"></div>
+      <!-- end overlay -->
+      <div class="container">
+        <div class="breadcrumb-content text-center">
+          <h2 class="sec__title text-white mb-3">Contact Us</h2>
+          <ul class="bread-list">
+            <li><a href="index.html">home</a></li>
+            <li>contact us</li>
+          </ul>
+        </div>
+        <!-- end breadcrumb-content -->
+      </div>
+      <!-- end container -->
+      <div class="bread-svg">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none">
+          <path
+            d="M-4.22,89.30 C280.19,26.14 324.21,125.81 511.00,41.94 L500.00,150.00 L0.00,150.00 Z"
+          ></path>
+        </svg>
+      </div>
+      <!-- end bread-svg -->
+    </section>
+    <!-- end breadcrumb-area -->
+    <!-- ================================
+    END BREADCRUMB AREA
+================================= -->
+
+    <!-- ================================
+    START CONTACT AREA
+================================= -->
+    <section class="contact-area padding-top-60px padding-bottom-90px">
+      <div class="container">
+        <div class="alert alert-success alert-message mb-3" role="alert">
+          Thank You! Your message has been sent.
+        </div>
+        <div class="row">
+          <div class="col-lg-8">
+            <form action="#" class="contact-form card">
+              <div class="card-body">
+                <h4 class="card-title">Get in touch</h4>
+                <hr class="border-top-gray" />
+                <div class="form-group">
+                  <label class="label-text">Your Name</label>
+                  <input
+                    id="name"
+                    class="form-control form--control ps-3"
+                    type="text"
+                    name="name"
+                    placeholder="Your name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="label-text">Your Email</label>
+                  <input
+                    id="email"
+                    class="form-control form--control ps-3"
+                    type="email"
+                    name="email"
+                    placeholder="you@email.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="label-text">Message</label>
+                  <textarea
+                    id="message"
+                    class="form-control form--control ps-3"
+                    rows="4"
+                    name="message"
+                    placeholder="Write message"
+                  ></textarea>
+                </div>
+                <button
+                  id="send-message-btn"
+                  class="theme-btn border-0"
+                  type="submit"
+                >
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+          <!-- end col-lg-8 -->
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Contact Information</h4>
+                <hr class="border-top-gray" />
+                <ul class="list-items mb-5">
+                  <li>
+                    <span
+                      class="fal fa-map-marker-alt icon-element icon-element-sm bg-white shadow-sm text-black me-2 font-size-14"
+                    ></span>
+                   32770 Grand River Ave Suite No:206 B, Farmington Hills, MI 48336, United States
+
+                  </li>
+                  <li>
+                    <span
+                      class="fal fa-envelope icon-element icon-element-sm bg-white shadow-sm text-black me-2 font-size-14"
+                    ></span
+                    ><a href="mailto: info@chaodesi.com"> info@chaodesi.com</a>
+                  </li>
+                  <li>
+                    <span
+                      class="fal fa-phone icon-element icon-element-sm bg-white shadow-sm text-black me-2 font-size-14"
+                    ></span>
+                     +1 734-928-2001 
+                  </li>
+                </ul>
+                <h4 class="card-title">Working Hours</h4>
+                <hr class="border-top-gray" />
+                <ul class="list-items mt-3">
+                  <li class="d-flex align-items-center justify-content-between">
+                    Monday To Friday
+                    <span class="font-weight-regular">9am - 7pm</span>
+                  </li>
+                  <li class="d-flex align-items-center justify-content-between">
+                    Saturday To Sunday
+                    <span class="font-weight-regular text-danger">Close</span>
+                  </li>
+                </ul>
+              </div>
+              <!-- end card-body -->
+            </div>
+            <!-- end card -->
+          </div>
+          <!-- end col-lg-4 -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end contact-area -->
+    <!-- ================================
+    END CONTACT AREA
+================================= -->
+
+    <!-- Start map --->
+    <div class="map-container">
+      <div
+        id="map-single"
+        data-latitude="40.728157"
+        data-longitude="-74.077644"
+        class="w-100 height-500"
+      ></div>
+    </div>
+    <!-- End map --->
+
+    <!-- ================================
+       START FOOTER AREA
+================================= -->
+    <section class="footer-area padding-top-80px pattern-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <a href="index.html" class="footer-logo mb-4 d-inline-block"
+                ><img src="images/logo2.png" alt="logo"
+              /></a>
+              <p class="mb-4">
+                Morbi convallis bibendum urna ut viverra. Maecenas quis
+                consequat libero, a feugiat eros
+              </p>
+              <div class="social-icons">
+                <a href="contact.html#"><i class="fab fa-facebook-f"></i></a>
+                <a href="contact.html#"><i class="fab fa-twitter"></i></a>
+                <a href="contact.html#"><i class="fab fa-instagram"></i></a>
+                <a href="contact.html#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <!-- end footer-item -->
+          </div>
+          <!-- end col-lg-3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer__title mb-3">Quick Links</h4>
+              <div class="stroke-shape mb-4"></div>
+              <ul class="list-items list-items-underline">
+                <li><a href="about.html">About us</a></li>
+                <li><a href="sign-up.html">Sign up</a></li>
+                <li><a href="login.html">Log in</a></li>
+                <li><a href="contact.html#">Terms & Conditions</a></li>
+                <li><a href="contact.html#">Privacy Policy</a></li>
+                <li><a href="contact.html#">Help Center</a></li>
+              </ul>
+            </div>
+            <!-- end footer-item -->
+          </div>
+          <!-- end col-lg-3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer__title mb-3">Categories</h4>
+              <div class="stroke-shape mb-4"></div>
+              <ul class="list-items list-items-underline">
+                <li><a href="contact.html#">Shops</a></li>
+                <li><a href="contact.html#">Hotels</a></li>
+                <li><a href="contact.html#">Restaurants</a></li>
+                <li><a href="contact.html#">Bars</a></li>
+                <li><a href="contact.html#">Events</a></li>
+                <li><a href="contact.html#">Fitness</a></li>
+              </ul>
+            </div>
+            <!-- end footer-item -->
+          </div>
+          <!-- end col-lg-3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer__title mb-3">Contact with Us</h4>
+              <div class="stroke-shape mb-4"></div>
+              <ul class="info-list">
+                <li>
+                  <span class="fal fa-home icon me-2"></span> 32770 Grand River Ave Suite No:206 B, Farmington Hills, MI 48336, United States 
+                </li>
+                <li>
+                  <span class="fal fa-headphones icon me-2"></span>
+                  <a href="contact.html#"> +1 734-928-2001 </a>
+                </li>
+                <li>
+                  <span class="fal fa-envelope icon me-2"></span>
+                  <a href="contact.html#">info@chaodesi.com</a>
+                </li>
+              </ul>
+            </div>
+            <!-- end footer-item -->
+          </div>
+          <!-- end col-lg-3 -->
+        </div>
+        <!-- end row -->
+        <hr class="border-top-gray" />
+        <div
+          class="copy-right d-flex flex-wrap align-items-center justify-content-between pb-4"
+        >
+          <p class="copy__desc py-2">
+            &copy; Copyright 2024  Chao Desi | All Rights Reserved
+            
+           
+          </p>
+          <select
+            class="select-picker select-picker-sm"
+            data-width="130"
+            data-size="5"
+          >
+            <option value="1" selected>English</option>
+            <option value="2">French</option>
+            <option value="3">Czech</option>
+            <option value="4">German</option>
+            <option value="5">Italian</option>
+            <option value="6">Turkish</option>
+          </select>
+        </div>
+        <!-- end copy-right -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end footer-area -->
+    <!-- ================================
+       START FOOTER AREA
+================================= -->
+
+    <!-- start back-to-top -->
+    <div id="back-to-top">
+      <i class="fal fa-angle-up" title="Go top"></i>
+    </div>
+    <!-- end back-to-top -->
+
+    <!-- Template JS Files -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/jquery.lazy.min.js"></script>
+    <!-- Start google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_my4aX1ULOXNZcIxmpBnJmVF7U544p2k"></script>
+    <script src="js/maps.js"></script>
+    <!-- End google map -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="TechyDevs" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chaodesi - Michigan’s Premier Classifieds Platform</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- start per-loader -->
+    <div class="loader-container">
+      <div class="loader-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- end per-loader -->
+
+    <!-- ================================
+            START HEADER AREA
+================================= -->
+     <header class="header-area header--area border-bottom border-bottom-gray">
+      <div class="main-header py-3 bg-white unfixed shadow-none">
+        <div class="container">
+          <div class="main-header-action-wrap">
+            <div class="logo">
+              <a href="index.html"><img src="images/logo2.png" alt="logo" /></a>
+            </div>
+            <!-- end logo -->
+            <nav class="main-menu me-4 ms-auto main-menu-black">
+				<ul>
+					<li>
+					  <a href="index.html">Home</a>
+				    </li>
+					<li>
+					  <a href="all-categories.html">Categories</a>
+					</li>
+					<li>
+					  <a href="list-left-sidebar.html">Listings <span class="fal fa-angle-down"></span></a>
+					  <ul class="dropdown-menu-item">
+						<li><a href="listing-details.html">listing details</a></li>
+						<li><a href="add-listing.html">add listing</a></li>
+					  </ul>
+					</li>
+					<li>
+					  <a href="#">Pages <span class="fal fa-angle-down"></span></a>
+					  <ul class="dropdown-menu-item">
+						<li><a href="user-profile.html">user profile</a></li>
+						
+						<li><a href="dashboard.html">dashboard</a></li>
+						<li><a href="booking.html">booking </a></li>
+						<li>
+						  <a href="booking-confirmation.html"
+							>booking confirmation
+						  </a>
+						</li>
+						<li><a href="invoice.html">invoice</a></li>
+						<li><a href="pricing.html">pricing</a></li>
+						<li><a href="about.html">about</a></li>
+						<li><a href="faq.html">faq</a></li>
+						<li><a href="contact.html">contact</a></li>
+						<li><a href="page-404.html">404 page</a></li>
+						<li><a href="recover.html">recover pass</a></li>
+					  </ul>
+					</li>
+					<li>
+					  <a href="blog-grid.html">Blog </a>
+					</li>
+				</ul>
+            </nav>
+            <div class="nav-right-content d-flex align-items-center">
+              <div class="author-access-list me-3 author-access-list-black">
+                <a href="login.html">Login</a>
+                <span class="or-text">or</span>
+                <a href="sign-up.html">Sign Up</a>
+              </div>
+              <a href="add-listing.html" class="theme-btn">
+                <span class="fal fa-plus me-1"></span>
+                Add Listing
+              </a>
+              <div class="side-menu-open ms-2 side-menu-open-black">
+                <i class="fal fa-bars"></i>
+              </div>
+              <!-- end side-menu-open -->
+            </div>
+            <!-- end nav-right-content -->
+          </div>
+          <!-- end main-header-action-wrap -->
+        </div>
+        <!-- end container-fluid -->
+      </div>
+      <!-- end main-header -->
+      <div class="off-canvas">
+        <div
+          class="off-canvas-close icon-element icon-element-sm bg-white shadow-sm"
+        >
+          <i class="fal fa-times"></i>
+        </div>
+        <!-- end off-canvas-close -->
+        <ul class="off-canvas-menu padding-top-60px">
+          <li>
+            <a href="user-profile.html#"
+              >Home <span class="fal fa-angle-down sub-menu-toggler"></span
+            ></a>
+            <ul class="off-canvas-sub-menu">
+              <li><a href="index.html">Home one</a></li>
+              <li><a href="index2.html">Home two </a></li>
+              <li><a href="index3.html">Home three</a></li>
+              <li><a href="index4.html">Home four</a></li>
+              <li><a href="index5.html">Home five</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="user-profile.html#"
+              >Categories
+              <span class="fal fa-angle-down sub-menu-toggler"></span
+            ></a>
+            <ul class="off-canvas-sub-menu">
+              <li><a href="all-categories.html">All categories</a></li>
+              <li><a href="all-locations.html">All locations</a></li>
+              <li><a href="top-place.html">Top places </a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="user-profile.html#"
+              >Listings <span class="fal fa-angle-down sub-menu-toggler"></span
+            ></a>
+            <ul class="off-canvas-sub-menu">
+              <li><a href="listing-grid.html">Listing grid</a></li>
+              <li><a href="list-with-map.html">list with map</a></li>
+              <li><a href="grid-with-map.html">grid with map</a></li>
+              <li><a href="listing-list.html">Listing list </a></li>
+              <li><a href="list-left-sidebar.html">Left sidebar </a></li>
+              <li><a href="list-right-sidebar.html">Right sidebar </a></li>
+              <li><a href="listing-details.html">Listing details</a></li>
+              <li><a href="add-listing.html">Add listing</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="user-profile.html#"
+              >Pages <span class="fal fa-angle-down sub-menu-toggler"></span
+            ></a>
+            <ul class="off-canvas-sub-menu">
+              <li><a href="user-profile.html">user profile</a></li>
+             
+              <li><a href="dashboard.html">dashboard</a></li>
+              <li><a href="booking.html">booking </a></li>
+              <li>
+                <a href="booking-confirmation.html">booking confirmation </a>
+              </li>
+              <li><a href="invoice.html">invoice</a></li>
+              <li><a href="pricing.html">pricing</a></li>
+              <li><a href="about.html">about</a></li>
+              <li><a href="faq.html">faq</a></li>
+              <li><a href="contact.html">contact</a></li>
+              <li><a href="page-404.html">404 page</a></li>
+              <li><a href="recover.html">recover pass</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="user-profile.html#"
+              >blog <span class="fal fa-angle-down sub-menu-toggler"></span
+            ></a>
+            <ul class="off-canvas-sub-menu">
+              <li><a href="blog-full-width.html">full width</a></li>
+              <li><a href="blog-grid.html">blog grid</a></li>
+              <li><a href="blog-left-sidebar.html">left sidebar </a></li>
+              <li><a href="blog-right-sidebar.html">right sidebar </a></li>
+              <li><a href="blog-single.html">blog detail</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="mt-4 text-center">
+          <a href="login.html" class="theme-btn me-2">Login</a>
+          <a href="sign-up.html" class="theme-btn">Sign up</a>
+        </div>
+      </div>
+      <!-- end off-canvas -->
+    </header>
+    <!-- ================================
+         END HEADER AREA
+================================= -->
+
+    <!-- ================================
+    START BREADCRUMB AREA
+================================= -->
+    <section class="breadcrumb-area bread-bg py-5">
+      <div class="overlay"></div>
+      <!-- end overlay -->
+      <div class="container">
+        <div class="breadcrumb-content text-center">
+          <h2 class="sec__title text-white mb-3">Dashboard</h2>
+          <ul class="bread-list">
+            <li><a href="index.html">home</a></li>
+            <li>pages</li>
+            <li>Dashboard</li>
+          </ul>
+        </div>
+        <!-- end breadcrumb-content -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end breadcrumb-area -->
+    <!-- ================================
+    END BREADCRUMB AREA
+================================= -->
+
+    <!-- ================================
+    START DASHBOARD AREA
+================================= -->
+    <section class="dashboard-area padding-bottom-70px">
+      <div class="bg-white shadow-sm py-4">
+        <div class="container">
+          <div
+            class="dashboard-nav d-flex flex-wrap align-items-center justify-content-between"
+          >
+            <ul
+              class="nav nav-tabs my-tabs my-tabs-2 justify-content-center my-1"
+              id="myTab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link active"
+                  id="listings-tab"
+                  data-bs-toggle="tab"
+                  href="dashboard.html#listings"
+                  role="tab"
+                  aria-controls="listings"
+                  aria-selected="true"
+                >
+                  <i class="fal fa-list me-1 font-size-14"></i> Listings
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="settings-tab"
+                  data-bs-toggle="tab"
+                  href="dashboard.html#settings"
+                  role="tab"
+                  aria-controls="settings"
+                  aria-selected="false"
+                >
+                  <i class="fal fa-cog me-1 font-size-14"></i> Settings
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="bookmarks-tab"
+                  data-bs-toggle="tab"
+                  href="dashboard.html#bookmarks"
+                  role="tab"
+                  aria-controls="bookmarks"
+                  aria-selected="false"
+                >
+                  <i class="fas fa-bookmark me-1 font-size-14"></i> Bookmarks
+                </a>
+              </li>
+            </ul>
+            <div class="my-1">
+              <a
+                href="add-listing.html"
+                class="theme-btn theme-btn-sm bg-white shadow-sm border border-gray text-black font-weight-medium me-1"
+                ><i class="fal fa-plus me-1"></i> Add listing</a
+              >
+              <a
+                href="index.html"
+                class="theme-btn theme-btn-sm bg-white shadow-sm border border-gray text-black font-weight-medium"
+                ><i class="fal fa-sign-out me-1"></i> Log out</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- end container -->
+      </div>
+      <div class="container">
+        <div class="tab-content mt-4" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="listings"
+            role="tabpanel"
+            aria-labelledby="listings-tab"
+          >
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="card hover-y">
+                  <a href="listing-details.html" class="card-image">
+                    <img
+                      src="images/img-loading.jpg"
+                      data-src="images/img1.jpg"
+                      class="card-img-top lazy"
+                      alt="card image"
+                    />
+                    <span class="badge text-bg-success badge-pill"
+                      >Now open</span
+                    >
+                  </a>
+                  <div class="card-body position-relative">
+                    <a href="dashboard.html#" class="card-cat mb-2"
+                      ><span
+                        class="fal fa-utensils icon-element icon-element-sm"
+                      ></span>
+                      Restaurant</a
+                    >
+                    <h4 class="card-title mb-1">
+                      <a href="listing-details.html"
+                        >Favorite Place Food Bank</a
+                      >
+                    </h4>
+                    <p class="card-text">Bishop Avenue, New York</p>
+                    <div class="star-rating mt-1" data-rating="5">
+                      <div class="rating-counter">5 reviews</div>
+                    </div>
+                  </div>
+                  <!-- end card-body -->
+                  <div class="card-footer bg-transparent border-top-gray">
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm edit-btn bg-success text-white me-1"
+                    >
+                      Edit
+                    </a>
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm delete-btn bg-danger text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#deleteProductModal"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                  <!-- end card-footer -->
+                </div>
+                <!-- end card -->
+              </div>
+              <!-- end col-lg-4 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="card hover-y">
+                  <a href="listing-details.html" class="card-image">
+                    <img
+                      src="images/img-loading.jpg"
+                      data-src="images/img2.jpg"
+                      class="card-img-top lazy"
+                      alt="card image"
+                    />
+                    <span class="badge text-bg-success badge-pill"
+                      >Now open</span
+                    >
+                  </a>
+                  <div class="card-body position-relative">
+                    <a href="dashboard.html#" class="card-cat mb-2"
+                      ><span
+                        class="fal fa-utensils icon-element icon-element-sm"
+                      ></span>
+                      Restaurant</a
+                    >
+                    <h4 class="card-title mb-1">
+                      <a href="listing-details.html"
+                        >Favorite Place Food Bank</a
+                      >
+                    </h4>
+                    <p class="card-text">Bishop Avenue, New York</p>
+                    <div class="star-rating mt-1" data-rating="5">
+                      <div class="rating-counter">5 reviews</div>
+                    </div>
+                  </div>
+                  <!-- end card-body -->
+                  <div class="card-footer bg-transparent border-top-gray">
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm edit-btn bg-success text-white me-1"
+                    >
+                      Edit
+                    </a>
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm delete-btn bg-danger text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#deleteProductModal"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                  <!-- end card-footer -->
+                </div>
+                <!-- end card -->
+              </div>
+              <!-- end col-lg-4 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="card hover-y">
+                  <a href="listing-details.html" class="card-image">
+                    <img
+                      src="images/img-loading.jpg"
+                      data-src="images/img3.jpg"
+                      class="card-img-top lazy"
+                      alt="card image"
+                    />
+                    <span class="badge text-bg-success badge-pill"
+                      >Now open</span
+                    >
+                  </a>
+                  <div class="card-body position-relative">
+                    <a href="dashboard.html#" class="card-cat mb-2"
+                      ><span
+                        class="fal fa-utensils icon-element icon-element-sm"
+                      ></span>
+                      Restaurant</a
+                    >
+                    <h4 class="card-title mb-1">
+                      <a href="listing-details.html"
+                        >Favorite Place Food Bank</a
+                      >
+                    </h4>
+                    <p class="card-text">Bishop Avenue, New York</p>
+                    <div class="star-rating mt-1" data-rating="5">
+                      <div class="rating-counter">5 reviews</div>
+                    </div>
+                  </div>
+                  <!-- end card-body -->
+                  <div class="card-footer bg-transparent border-top-gray">
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm edit-btn bg-success text-white me-1"
+                    >
+                      Edit
+                    </a>
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm delete-btn bg-danger text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#deleteProductModal"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                  <!-- end card-footer -->
+                </div>
+                <!-- end card -->
+              </div>
+              <!-- end col-lg-4 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="card hover-y">
+                  <a href="listing-details.html" class="card-image">
+                    <img
+                      src="images/img-loading.jpg"
+                      data-src="images/img4.jpg"
+                      class="card-img-top lazy"
+                      alt="card image"
+                    />
+                    <span class="badge text-bg-success badge-pill"
+                      >Now open</span
+                    >
+                  </a>
+                  <div class="card-body position-relative">
+                    <a href="dashboard.html#" class="card-cat mb-2"
+                      ><span
+                        class="fal fa-utensils icon-element icon-element-sm"
+                      ></span>
+                      Restaurant</a
+                    >
+                    <h4 class="card-title mb-1">
+                      <a href="listing-details.html"
+                        >Favorite Place Food Bank</a
+                      >
+                    </h4>
+                    <p class="card-text">Bishop Avenue, New York</p>
+                    <div class="star-rating mt-1" data-rating="5">
+                      <div class="rating-counter">5 reviews</div>
+                    </div>
+                  </div>
+                  <!-- end card-body -->
+                  <div class="card-footer bg-transparent border-top-gray">
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm edit-btn bg-success text-white me-1"
+                    >
+                      Edit
+                    </a>
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm delete-btn bg-danger text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#deleteProductModal"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                  <!-- end card-footer -->
+                </div>
+                <!-- end card -->
+              </div>
+              <!-- end col-lg-4 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="card hover-y">
+                  <a href="listing-details.html" class="card-image">
+                    <img
+                      src="images/img-loading.jpg"
+                      data-src="images/img5.jpg"
+                      class="card-img-top lazy"
+                      alt="card image"
+                    />
+                    <span class="badge text-bg-success badge-pill"
+                      >Now open</span
+                    >
+                  </a>
+                  <div class="card-body position-relative">
+                    <a href="dashboard.html#" class="card-cat mb-2"
+                      ><span
+                        class="fal fa-utensils icon-element icon-element-sm"
+                      ></span>
+                      Restaurant</a
+                    >
+                    <h4 class="card-title mb-1">
+                      <a href="listing-details.html"
+                        >Favorite Place Food Bank</a
+                      >
+                    </h4>
+                    <p class="card-text">Bishop Avenue, New York</p>
+                    <div class="star-rating mt-1" data-rating="5">
+                      <div class="rating-counter">5 reviews</div>
+                    </div>
+                  </div>
+                  <!-- end card-body -->
+                  <div class="card-footer bg-transparent border-top-gray">
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm edit-btn bg-success text-white me-1"
+                    >
+                      Edit
+                    </a>
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm delete-btn bg-danger text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#deleteProductModal"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                  <!-- end card-footer -->
+                </div>
+                <!-- end card -->
+              </div>
+              <!-- end col-lg-4 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="card hover-y">
+                  <a href="listing-details.html" class="card-image">
+                    <img
+                      src="images/img-loading.jpg"
+                      data-src="images/img6.jpg"
+                      class="card-img-top lazy"
+                      alt="card image"
+                    />
+                    <span class="badge text-bg-success badge-pill"
+                      >Now open</span
+                    >
+                  </a>
+                  <div class="card-body position-relative">
+                    <a href="dashboard.html#" class="card-cat mb-2"
+                      ><span
+                        class="fal fa-utensils icon-element icon-element-sm"
+                      ></span>
+                      Restaurant</a
+                    >
+                    <h4 class="card-title mb-1">
+                      <a href="listing-details.html"
+                        >Favorite Place Food Bank</a
+                      >
+                    </h4>
+                    <p class="card-text">Bishop Avenue, New York</p>
+                    <div class="star-rating mt-1" data-rating="5">
+                      <div class="rating-counter">5 reviews</div>
+                    </div>
+                  </div>
+                  <!-- end card-body -->
+                  <div class="card-footer bg-transparent border-top-gray">
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm edit-btn bg-success text-white me-1"
+                    >
+                      Edit
+                    </a>
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm delete-btn bg-danger text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#deleteProductModal"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                  <!-- end card-footer -->
+                </div>
+                <!-- end card -->
+              </div>
+              <!-- end col-lg-4 -->
+            </div>
+            <!-- end row -->
+          </div>
+          <!-- end tab-pane -->
+          <div
+            class="tab-pane fade"
+            id="settings"
+            role="tabpanel"
+            aria-labelledby="settings-tab"
+          >
+            <div class="row">
+              <div class="col-lg-12">
+                <h4 class="font-size-20 font-weight-semi-bold mb-3">
+                  Edit Profile
+                </h4>
+              </div>
+              <!-- end col-lg-12 -->
+              <div class="edit-profile-photo media mb-4 col-lg-12">
+                <img
+                  src="images/team1.jpg"
+                  alt="avatar image"
+                  class="profile-img me-4 flex-shrink-0"
+                />
+                <div
+                  class="file-upload-wrap file-upload-wrap-layout-2 media-body align-self-center"
+                >
+                  <input
+                    type="file"
+                    name="files[]"
+                    class="multi file-upload-input with-preview"
+                    multiple
+                  />
+                  <span class="file-upload-text"
+                    ><i class="fal fa-upload me-2"></i>Upload Photo</span
+                  >
+                </div>
+              </div>
+              <!-- end edit-profile-photo -->
+              <div class="col-lg-6 col-md-6">
+                <label class="label-text">Your Name</label>
+                <div class="form-group">
+                  <span class="fal fa-user form-icon"></span>
+                  <input
+                    class="form-control form--control"
+                    type="text"
+                    name="name"
+                    value="Kamran Ahmed"
+                  />
+                </div>
+                <!-- end form-group -->
+              </div>
+              <!-- end col-lg-6 -->
+              <div class="col-lg-6 col-md-6">
+                <label class="label-text">Your Email</label>
+                <div class="form-group">
+                  <span class="fal fa-envelope form-icon"></span>
+                  <input
+                    class="form-control form--control"
+                    type="text"
+                    name="name"
+                    value="kamran123@gmail.com"
+                  />
+                </div>
+                <!-- end form-group -->
+              </div>
+              <!-- end col-lg-6 -->
+              <div class="col-lg-6 col-md-6">
+                <label class="label-text">Phone Number</label>
+                <div class="form-group">
+                  <span class="fal fa-phone form-icon"></span>
+                  <input
+                    class="form-control form--control"
+                    type="text"
+                    name="name"
+                    value="+7(123)987654"
+                  />
+                </div>
+                <!-- end form-group -->
+              </div>
+              <!-- end col-lg-6 -->
+              <div class="col-lg-6 col-md-6">
+                <label class="label-text">Address</label>
+                <div class="form-group">
+                  <span class="fal fa-map-marker-alt form-icon"></span>
+                  <input
+                    class="form-control form--control"
+                    type="text"
+                    name="name"
+                    value="USA 27TH Brooklyn NY"
+                  />
+                </div>
+                <!-- end form-group -->
+              </div>
+              <!-- end col-lg-6 -->
+              <div class="col-lg-12">
+                <label class="label-text">Notes</label>
+                <div class="form-group">
+                  <textarea
+                    class="form-control form--control ps-3"
+                    rows="6"
+                    name="message"
+                  >
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, quos?</textarea
+                  >
+                </div>
+                <!-- end form-group -->
+              </div>
+              <!-- end col-lg-6 -->
+              <div class="col-lg-6 col-md-6">
+                <label class="label-text">Website</label>
+                <div class="form-group">
+                  <span class="fal fa-globe form-icon"></span>
+                  <input
+                    class="form-control form--control"
+                    type="text"
+                    name="name"
+                    placeholder="www.techydevs.com"
+                  />
+                </div>
+                <!-- end form-group -->
+              </div>
+              <!-- end col-lg-6 -->
+              <div class="col-lg-6 col-md-6">
+                <label class="label-text">Facebook</label>
+                <div class="form-group">
+                  <span class="fab fa-facebook-f form-icon"></span>
+                  <input
+                    class="form-control form--control"
+                    type="text"
+                    name="name"
+                    placeholder="www.facebook.com"
+                  />
+                </div>
+                <!-- end form-group -->
+              </div>
+              <!-- end col-lg-6 -->
+              <div class="col-lg-6 col-md-6">
+                <label class="label-text">Twitter</label>
+                <div class="form-group">
+                  <span class="fab fa-twitter form-icon"></span>
+                  <input
+                    class="form-control form--control"
+                    type="text"
+                    name="name"
+                    placeholder="www.twitter.com"
+                  />
+                </div>
+                <!-- end form-group -->
+              </div>
+              <!-- end col-lg-6 -->
+              <div class="col-lg-6 col-md-6">
+                <label class="label-text">Instagram</label>
+                <div class="form-group">
+                  <span class="fab fa-instagram form-icon"></span>
+                  <input
+                    class="form-control form--control"
+                    type="text"
+                    name="name"
+                    placeholder="www.instagram.com"
+                  />
+                </div>
+                <!-- end form-group -->
+              </div>
+              <!-- end col-lg-6 -->
+              <div class="col-lg-12">
+                <button class="theme-btn mt-3 border-0" type="button">
+                  Save Changes
+                </button>
+              </div>
+              <!-- end col-lg-12 -->
+            </div>
+            <!-- end row -->
+            <hr class="border-top-gray my-5" />
+            <div class="row">
+              <div class="col-lg-12">
+                <h4 class="font-size-20 font-weight-semi-bold mb-3">
+                  Change Password
+                </h4>
+              </div>
+              <!-- end col-lg-12 -->
+              <div class="col-lg-6 col-md-6">
+                <label class="label-text">Current Password</label>
+                <div class="form-group">
+                  <span class="fal fa-lock form-icon"></span>
+                  <input
+                    class="form-control form--control password-field"
+                    type="password"
+                    name="password"
+                    placeholder="Current password"
+                  />
+                </div>
+                <!-- end form-group -->
+              </div>
+              <!-- end col-lg-6 -->
+              <div class="col-lg-6 col-md-6">
+                <label class="label-text">New Password</label>
+                <div class="form-group">
+                  <span class="fal fa-lock form-icon"></span>
+                  <input
+                    class="form-control form--control password-field"
+                    type="password"
+                    name="password"
+                    placeholder="New password"
+                  />
+                </div>
+                <!-- end form-group -->
+              </div>
+              <!-- end col-lg-6 -->
+              <div class="col-lg-6 col-md-6">
+                <label class="label-text">New Password (again)</label>
+                <div class="form-group">
+                  <span class="fal fa-lock form-icon"></span>
+                  <input
+                    class="form-control form--control password-field"
+                    type="password"
+                    name="password"
+                    placeholder="New password again"
+                  />
+                </div>
+                <!-- end form-group -->
+              </div>
+              <!-- end col-lg-6 -->
+              <div class="col-lg-12">
+                <a
+                  href="javascript:void(0)"
+                  class="btn btn-light toggle-password"
+                  data-bs-toggle="tooltip"
+                  data-placement="right"
+                  title="toggle show/hide password"
+                >
+                  <i class="far fa-eye eye-on"></i>
+                  <i class="far fa-eye-slash eye-off"></i>
+                </a>
+              </div>
+              <!-- end col-lg-12 -->
+              <div class="col-lg-12">
+                <button class="theme-btn mt-3 border-0" type="button">
+                  Change Password
+                </button>
+              </div>
+              <!-- end col-lg-12 -->
+            </div>
+            <!-- end row -->
+            <div class="border border-danger p-4 mt-5 rounded">
+              <h4 class="font-size-20 font-weight-semi-bold mb-1 text-danger">
+                Delete Account
+              </h4>
+              <p class="mb-3">
+                <span class="text-warning">Warning:</span> Once you delete your
+                account, there is no going back. Please be certain.
+              </p>
+              <a
+                href="dashboard.html#"
+                class="theme-btn bg-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#deleteAccountModal"
+                >Delete Account</a
+              >
+            </div>
+          </div>
+          <!-- end tab-pane -->
+          <div
+            class="tab-pane fade"
+            id="bookmarks"
+            role="tabpanel"
+            aria-labelledby="bookmarks-tab"
+          >
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="card hover-y">
+                  <a href="listing-details.html" class="card-image">
+                    <img
+                      src="images/img-loading.jpg"
+                      data-src="images/img1.jpg"
+                      class="card-img-top lazy"
+                      alt="card image"
+                    />
+                    <span class="badge text-bg-success badge-pill"
+                      >Now open</span
+                    >
+                  </a>
+                  <div class="card-body position-relative">
+                    <a href="dashboard.html#" class="card-cat mb-2"
+                      ><span
+                        class="fal fa-utensils icon-element icon-element-sm"
+                      ></span>
+                      Restaurant</a
+                    >
+                    <h4 class="card-title mb-1">
+                      <a href="listing-details.html"
+                        >Favorite Place Food Bank</a
+                      >
+                    </h4>
+                    <p class="card-text">Bishop Avenue, New York</p>
+                    <div class="star-rating mt-1" data-rating="5">
+                      <div class="rating-counter">5 reviews</div>
+                    </div>
+                  </div>
+                  <!-- end card-body -->
+                  <div class="card-footer bg-transparent border-top-gray">
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm delete-btn bg-danger text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#deleteProductModal"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                  <!-- end card-footer -->
+                </div>
+                <!-- end card -->
+              </div>
+              <!-- end col-lg-4 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="card hover-y">
+                  <a href="listing-details.html" class="card-image">
+                    <img
+                      src="images/img-loading.jpg"
+                      data-src="images/img2.jpg"
+                      class="card-img-top lazy"
+                      alt="card image"
+                    />
+                    <span class="badge text-bg-success badge-pill"
+                      >Now open</span
+                    >
+                  </a>
+                  <div class="card-body position-relative">
+                    <a href="dashboard.html#" class="card-cat mb-2"
+                      ><span
+                        class="fal fa-utensils icon-element icon-element-sm"
+                      ></span>
+                      Restaurant</a
+                    >
+                    <h4 class="card-title mb-1">
+                      <a href="listing-details.html"
+                        >Favorite Place Food Bank</a
+                      >
+                    </h4>
+                    <p class="card-text">Bishop Avenue, New York</p>
+                    <div class="star-rating mt-1" data-rating="5">
+                      <div class="rating-counter">5 reviews</div>
+                    </div>
+                  </div>
+                  <!-- end card-body -->
+                  <div class="card-footer bg-transparent border-top-gray">
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm delete-btn bg-danger text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#deleteProductModal"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                  <!-- end card-footer -->
+                </div>
+                <!-- end card -->
+              </div>
+              <!-- end col-lg-4 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="card hover-y">
+                  <a href="listing-details.html" class="card-image">
+                    <img
+                      src="images/img-loading.jpg"
+                      data-src="images/img3.jpg"
+                      class="card-img-top lazy"
+                      alt="card image"
+                    />
+                    <span class="badge text-bg-success badge-pill"
+                      >Now open</span
+                    >
+                  </a>
+                  <div class="card-body position-relative">
+                    <a href="dashboard.html#" class="card-cat mb-2"
+                      ><span
+                        class="fal fa-utensils icon-element icon-element-sm"
+                      ></span>
+                      Restaurant</a
+                    >
+                    <h4 class="card-title mb-1">
+                      <a href="listing-details.html"
+                        >Favorite Place Food Bank</a
+                      >
+                    </h4>
+                    <p class="card-text">Bishop Avenue, New York</p>
+                    <div class="star-rating mt-1" data-rating="5">
+                      <div class="rating-counter">5 reviews</div>
+                    </div>
+                  </div>
+                  <!-- end card-body -->
+                  <div class="card-footer bg-transparent border-top-gray">
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm delete-btn bg-danger text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#deleteProductModal"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                  <!-- end card-footer -->
+                </div>
+                <!-- end card -->
+              </div>
+              <!-- end col-lg-4 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="card hover-y">
+                  <a href="listing-details.html" class="card-image">
+                    <img
+                      src="images/img-loading.jpg"
+                      data-src="images/img4.jpg"
+                      class="card-img-top lazy"
+                      alt="card image"
+                    />
+                    <span class="badge text-bg-success badge-pill"
+                      >Now open</span
+                    >
+                  </a>
+                  <div class="card-body position-relative">
+                    <a href="dashboard.html#" class="card-cat mb-2"
+                      ><span
+                        class="fal fa-utensils icon-element icon-element-sm"
+                      ></span>
+                      Restaurant</a
+                    >
+                    <h4 class="card-title mb-1">
+                      <a href="listing-details.html"
+                        >Favorite Place Food Bank</a
+                      >
+                    </h4>
+                    <p class="card-text">Bishop Avenue, New York</p>
+                    <div class="star-rating mt-1" data-rating="5">
+                      <div class="rating-counter">5 reviews</div>
+                    </div>
+                  </div>
+                  <!-- end card-body -->
+                  <div class="card-footer bg-transparent border-top-gray">
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm delete-btn bg-danger text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#deleteProductModal"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                  <!-- end card-footer -->
+                </div>
+                <!-- end card -->
+              </div>
+              <!-- end col-lg-4 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="card hover-y">
+                  <a href="listing-details.html" class="card-image">
+                    <img
+                      src="images/img-loading.jpg"
+                      data-src="images/img4.jpg"
+                      class="card-img-top lazy"
+                      alt="card image"
+                    />
+                    <span class="badge text-bg-success badge-pill"
+                      >Now open</span
+                    >
+                  </a>
+                  <div class="card-body position-relative">
+                    <a href="dashboard.html#" class="card-cat mb-2"
+                      ><span
+                        class="fal fa-utensils icon-element icon-element-sm"
+                      ></span>
+                      Restaurant</a
+                    >
+                    <h4 class="card-title mb-1">
+                      <a href="listing-details.html"
+                        >Favorite Place Food Bank</a
+                      >
+                    </h4>
+                    <p class="card-text">Bishop Avenue, New York</p>
+                    <div class="star-rating mt-1" data-rating="5">
+                      <div class="rating-counter">5 reviews</div>
+                    </div>
+                  </div>
+                  <!-- end card-body -->
+                  <div class="card-footer bg-transparent border-top-gray">
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm delete-btn bg-danger text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#deleteProductModal"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                  <!-- end card-footer -->
+                </div>
+                <!-- end card -->
+              </div>
+              <!-- end col-lg-4 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="card hover-y">
+                  <a href="listing-details.html" class="card-image">
+                    <img
+                      src="images/img-loading.jpg"
+                      data-src="images/img5.jpg"
+                      class="card-img-top lazy"
+                      alt="card image"
+                    />
+                    <span class="badge text-bg-success badge-pill"
+                      >Now open</span
+                    >
+                  </a>
+                  <div class="card-body position-relative">
+                    <a href="dashboard.html#" class="card-cat mb-2"
+                      ><span
+                        class="fal fa-utensils icon-element icon-element-sm"
+                      ></span>
+                      Restaurant</a
+                    >
+                    <h4 class="card-title mb-1">
+                      <a href="listing-details.html"
+                        >Favorite Place Food Bank</a
+                      >
+                    </h4>
+                    <p class="card-text">Bishop Avenue, New York</p>
+                    <div class="star-rating mt-1" data-rating="5">
+                      <div class="rating-counter">5 reviews</div>
+                    </div>
+                  </div>
+                  <!-- end card-body -->
+                  <div class="card-footer bg-transparent border-top-gray">
+                    <a
+                      href="dashboard.html#"
+                      class="btn btn-sm delete-btn bg-danger text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#deleteProductModal"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                  <!-- end card-footer -->
+                </div>
+                <!-- end card -->
+              </div>
+              <!-- end col-lg-4 -->
+            </div>
+            <!-- end row -->
+          </div>
+          <!-- end tab-pane -->
+        </div>
+        <!-- end tab-content -->
+      </div>
+    </section>
+    <!-- end dashboard-area -->
+    <!-- ================================
+    END DASHBOARD AREA
+================================= -->
+
+    <!-- ================================
+       START FOOTER AREA
+================================= -->
+    <section class="footer-area bg-gray padding-top-80px pattern-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <a href="index.html" class="footer-logo mb-4 d-inline-block"
+                ><img src="images/logo2.png" alt="logo"
+              /></a>
+              <p class="mb-4">
+                Morbi convallis bibendum urna ut viverra. Maecenas quis
+                consequat libero, a feugiat eros
+              </p>
+              <div class="social-icons">
+                <a href="dashboard.html#"><i class="fab fa-facebook-f"></i></a>
+                <a href="dashboard.html#"><i class="fab fa-twitter"></i></a>
+                <a href="dashboard.html#"><i class="fab fa-instagram"></i></a>
+                <a href="dashboard.html#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <!-- end footer-item -->
+          </div>
+          <!-- end col-lg-3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer__title mb-3">Quick Links</h4>
+              <div class="stroke-shape mb-4"></div>
+              <ul class="list-items list-items-underline">
+                <li><a href="about.html">About us</a></li>
+                <li><a href="sign-up.html">Sign up</a></li>
+                <li><a href="login.html">Log in</a></li>
+                <li><a href="dashboard.html#">Terms & Conditions</a></li>
+                <li><a href="dashboard.html#">Privacy Policy</a></li>
+                <li><a href="dashboard.html#">Help Center</a></li>
+              </ul>
+            </div>
+            <!-- end footer-item -->
+          </div>
+          <!-- end col-lg-3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer__title mb-3">Categories</h4>
+              <div class="stroke-shape mb-4"></div>
+              <ul class="list-items list-items-underline">
+                <li><a href="dashboard.html#">Shops</a></li>
+                <li><a href="dashboard.html#">Hotels</a></li>
+                <li><a href="dashboard.html#">Restaurants</a></li>
+                <li><a href="dashboard.html#">Bars</a></li>
+                <li><a href="dashboard.html#">Events</a></li>
+                <li><a href="dashboard.html#">Fitness</a></li>
+              </ul>
+            </div>
+            <!-- end footer-item -->
+          </div>
+          <!-- end col-lg-3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer__title mb-3">Contact with Us</h4>
+              <div class="stroke-shape mb-4"></div>
+              <ul class="info-list">
+                <li>
+                  <span class="fal fa-home icon me-2"></span> 32770 Grand River Ave Suite No:206 B, Farmington Hills, MI 48336, United States 
+                </li>
+                <li>
+                  <span class="fal fa-headphones icon me-2"></span>
+                  <a href="dashboard.html#"> +1 734-928-2001 </a>
+                </li>
+                <li>
+                  <span class="fal fa-envelope icon me-2"></span>
+                  <a href="dashboard.html#">info@chaodesi.com</a>
+                </li>
+              </ul>
+            </div>
+            <!-- end footer-item -->
+          </div>
+          <!-- end col-lg-3 -->
+        </div>
+        <!-- end row -->
+        <hr class="border-top-gray" />
+        <div
+          class="copy-right d-flex flex-wrap align-items-center justify-content-between pb-4"
+        >
+          <p class="copy__desc py-2">
+            &copy; Copyright 2024  Chao Desi | All Rights Reserved
+            
+           
+          </p>
+          <select
+            class="select-picker select-picker-sm"
+            data-width="130"
+            data-size="5"
+          >
+            <option value="1" selected>English</option>
+            <option value="2">French</option>
+            <option value="3">Czech</option>
+            <option value="4">German</option>
+            <option value="5">Italian</option>
+            <option value="6">Turkish</option>
+          </select>
+        </div>
+        <!-- end copy-right -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end footer-area -->
+    <!-- ================================
+       START FOOTER AREA
+================================= -->
+
+    <!-- start back-to-top -->
+    <div id="back-to-top">
+      <i class="fal fa-angle-up" title="Go top"></i>
+    </div>
+    <!-- end back-to-top -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade modal-container"
+      id="deleteProductModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="deleteProductModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <span
+              class="fal fa-exclamation-circle font-size-50 text-warning"
+            ></span>
+            <h5
+              class="font-size-22 font-weight-semi-bold mt-3 mb-2"
+              id="deleteProductModalTitle"
+            >
+              Your item will be deleted permanently!
+            </h5>
+            <p>Are you sure to proceed.</p>
+          </div>
+          <div class="modal-footer border-top-gray">
+            <button
+              type="button"
+              class="theme-btn theme-btn-sm border-0 bg-success"
+              data-bs-dismiss="modal"
+            >
+              Cancel
+            </button>
+            <button
+              type="button"
+              class="theme-btn theme-btn-sm border-0 bg-danger"
+            >
+              Delete!
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade modal-container"
+      id="deleteAccountModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="deleteAccountModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <span
+              class="fal fa-exclamation-circle font-size-50 text-warning"
+            ></span>
+            <h5
+              class="font-size-22 font-weight-semi-bold mt-3 mb-2"
+              id="deleteAccountModalTitle"
+            >
+              Your account will be deleted permanently!
+            </h5>
+            <p>Are you sure to proceed.</p>
+          </div>
+          <div class="modal-footer border-top-gray">
+            <button
+              type="button"
+              class="theme-btn theme-btn-sm border-0 bg-success"
+              data-bs-dismiss="modal"
+            >
+              Cancel
+            </button>
+            <button
+              type="button"
+              class="theme-btn theme-btn-sm border-0 bg-danger"
+            >
+              Delete!
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Template JS Files -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.lazy.min.js"></script>
+    <script src="js/jquery.MultiFile.min.js"></script>
+    <script src="js/rating-script.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

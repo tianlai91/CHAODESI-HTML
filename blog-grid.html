@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="TechyDevs" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chaodesi - Michigan’s Premier Classifieds Platform</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- start per-loader -->
+    <div class="loader-container">
+      <div class="loader-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- end per-loader -->
+
+    <!-- ================================
+            START HEADER AREA
+================================= -->
+   <header class="header-area border-bottom border-bottom-gray">
+      <div class="main-header py-3">
+        <div class="container">
+          <div class="main-header-action-wrap">
+            <div class="logo">
+              <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+            </div>
+            <!-- end logo -->
+            <nav class="main-menu me-4 ms-auto">
+              <ul>
+                <li>
+                  <a href="index.html">Home</a>
+               </li>
+                <li>
+                  <a href="all-categories.html">Categories</a>
+                </li>
+                <li>
+                  <a href="list-left-sidebar.html">Listings <span class="fal fa-angle-down"></span></a>
+                  <ul class="dropdown-menu-item">
+                    <li><a href="listing-details.html">listing details</a></li>
+                    <li><a href="add-listing.html">add listing</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Pages <span class="fal fa-angle-down"></span></a>
+                  <ul class="dropdown-menu-item">
+                    <li><a href="user-profile.html">user profile</a></li>
+                   
+                    <li><a href="dashboard.html">dashboard</a></li>
+                    <li><a href="booking.html">booking </a></li>
+                    <li>
+                      <a href="booking-confirmation.html"
+                        >booking confirmation
+                      </a>
+                    </li>
+                    <li><a href="invoice.html">invoice</a></li>
+                    <li><a href="pricing.html">pricing</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="faq.html">faq</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="page-404.html">404 page</a></li>
+                    <li><a href="recover.html">recover pass</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="blog-grid.html">Blog </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="nav-right-content d-flex align-items-center">
+              <div class="author-access-list me-3">
+                <a href="login.html">Login</a>
+                <span class="or-text">or</span>
+                <a href="sign-up.html">Sign Up</a>
+              </div>
+              <a href="add-listing.html" class="theme-btn">
+                <span class="fal fa-plus me-1"></span>
+                Add Listing
+              </a>
+              <div class="side-menu-open ms-2">
+                <i class="fal fa-bars"></i>
+              </div>
+              <!-- end side-menu-open -->
+            </div>
+            <!-- end nav-right-content -->
+          </div>
+          <!-- end main-header-action-wrap -->
+        </div>
+        <!-- end container-fluid -->
+      </div>
+      <!-- end main-header -->
+      <div class="off-canvas">
+        <div
+          class="off-canvas-close icon-element icon-element-sm bg-white shadow-sm"
+        >
+          <i class="fal fa-times"></i>
+        </div>
+        <!-- end off-canvas-close -->
+        <ul class="off-canvas-menu padding-top-60px">
+          <li>
+            <a href="index.html">Home </a>
+          </li>
+		  
+          <li>
+            <a href="all-categories.html" >Categories</a>
+          </li>
+          <li>
+            <a href="list-left-sidebar.html" >Listings <span class="fal fa-angle-down sub-menu-toggler"></span
+            ></a>
+            <ul class="off-canvas-sub-menu">
+              <li><a href="listing-details.html">listing details</a></li>
+                    <li><a href="add-listing.html">add listing</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Pages <span class="fal fa-angle-down sub-menu-toggler"></span ></a>
+            <ul class="off-canvas-sub-menu">
+              <li><a href="user-profile.html">user profile</a></li>
+             
+              <li><a href="dashboard.html">dashboard</a></li>
+              <li><a href="booking.html">booking </a></li>
+              <li>
+                <a href="booking-confirmation.html">booking confirmation </a>
+              </li>
+              <li><a href="invoice.html">invoice</a></li>
+              <li><a href="pricing.html">pricing</a></li>
+              <li><a href="about.html">about</a></li>
+              <li><a href="faq.html">faq</a></li>
+              <li><a href="contact.html">contact</a></li>
+              <li><a href="page-404.html">404 page</a></li>
+              <li><a href="recover.html">recover pass</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="blog-grid.html">blog <span class="fal fa-angle-down sub-menu-toggler"></span></a>
+            
+          </li>
+        </ul>
+        <div class="mt-4 text-center">
+          <a href="login.html" class="theme-btn me-2">Login</a>
+          <a href="sign-up.html" class="theme-btn">Sign up</a>
+        </div>
+      </div>
+      <!-- end off-canvas -->
+    </header>
+    <!-- ================================
+         END HEADER AREA
+================================= -->
+
+    <!-- ================================
+    START BREADCRUMB AREA
+================================= -->
+    <section class="breadcrumb-area bread-bg">
+      <div class="overlay"></div>
+      <!-- end overlay -->
+      <div class="container">
+        <div class="breadcrumb-content text-center">
+          <h2 class="sec__title text-white mb-3">Blog Grid</h2>
+          <ul class="bread-list">
+            <li><a href="index.html">home</a></li>
+            <li>Blog</li>
+            <li>Blog Grid</li>
+          </ul>
+        </div>
+        <!-- end breadcrumb-content -->
+      </div>
+      <!-- end container -->
+      <div class="bread-svg">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none">
+          <path
+            d="M-4.22,89.30 C280.19,26.14 324.21,125.81 511.00,41.94 L500.00,150.00 L0.00,150.00 Z"
+          ></path>
+        </svg>
+      </div>
+      <!-- end bread-svg -->
+    </section>
+    <!-- end breadcrumb-area -->
+    <!-- ================================
+    END BREADCRUMB AREA
+================================= -->
+
+    <!-- ================================
+       START BLOG AREA
+================================= -->
+    <section class="blog-area padding-top-60px padding-bottom-70px">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card hover-y">
+              <a href="blog-single.html" class="card-image">
+                <img
+                  src="images/img-loading.jpg"
+                  data-src="images/img1.jpg"
+                  alt="blog image"
+                  class="card-img-top lazy"
+                />
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="blog-single.html"
+                    >50 Greatest Event Places in United Kingdom</a
+                  >
+                </h4>
+                <ul class="card-meta d-flex flex-wrap align-items-center">
+                  <li>25 Dec, 2018</li>
+                  <li><span class="mx-1">-</span></li>
+                  <li><a href="blog-grid.html#">Tips & Tricks</a></li>
+                </ul>
+                <p class="card-text mt-3">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  eaque ipsa quae ab illo inventore
+                </p>
+                <div
+                  class="post-author d-flex align-items-center justify-content-between mt-3"
+                >
+                  <div>
+                    <img src="images/testi-img7.jpg" alt="" />
+                    <span>By</span>
+                    <a href="blog-grid.html#">David Wise</a>
+                  </div>
+                  <a href="blog-single.html">Read more</a>
+                </div>
+              </div>
+              <!-- end card-body -->
+            </div>
+            <!-- end card -->
+          </div>
+          <!-- end col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="card hover-y">
+              <a href="blog-single.html" class="card-image">
+                <img
+                  src="images/img-loading.jpg"
+                  data-src="images/img2.jpg"
+                  alt="blog image"
+                  class="card-img-top lazy"
+                />
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="blog-single.html"
+                    >Top 10 Best Clothing Shops In Sydney</a
+                  >
+                </h4>
+                <ul class="card-meta d-flex flex-wrap align-items-center">
+                  <li>25 Dec, 2018</li>
+                  <li><span class="mx-1">-</span></li>
+                  <li><a href="blog-grid.html#">Tips & Tricks</a></li>
+                </ul>
+                <p class="card-text mt-3">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  eaque ipsa quae ab illo inventore
+                </p>
+                <div
+                  class="post-author d-flex align-items-center justify-content-between mt-3"
+                >
+                  <div>
+                    <img src="images/testi-img7.jpg" alt="" />
+                    <span>By</span>
+                    <a href="blog-grid.html#">David Wise</a>
+                  </div>
+                  <a href="blog-single.html">Read more</a>
+                </div>
+              </div>
+              <!-- end card-body -->
+            </div>
+            <!-- end card -->
+          </div>
+          <!-- end col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="card hover-y">
+              <a href="blog-single.html" class="card-image">
+                <img
+                  src="images/img-loading.jpg"
+                  data-src="images/img3.jpg"
+                  alt="blog image"
+                  class="card-img-top lazy"
+                />
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="blog-single.html"
+                    >Top 15 Greatest Hotels In United States</a
+                  >
+                </h4>
+                <ul class="card-meta d-flex flex-wrap align-items-center">
+                  <li>25 Dec, 2018</li>
+                  <li><span class="mx-1">-</span></li>
+                  <li><a href="blog-grid.html#">Tips & Tricks</a></li>
+                </ul>
+                <p class="card-text mt-3">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  eaque ipsa quae ab illo inventore
+                </p>
+                <div
+                  class="post-author d-flex align-items-center justify-content-between mt-3"
+                >
+                  <div>
+                    <img src="images/testi-img7.jpg" alt="" />
+                    <span>By</span>
+                    <a href="blog-grid.html#">David Wise</a>
+                  </div>
+                  <a href="blog-single.html">Read more</a>
+                </div>
+              </div>
+              <!-- end card-body -->
+            </div>
+            <!-- end card -->
+          </div>
+          <!-- end col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="card hover-y">
+              <a href="blog-single.html" class="card-image">
+                <img
+                  src="images/img-loading.jpg"
+                  data-src="images/img1.jpg"
+                  alt="blog image"
+                  class="card-img-top lazy"
+                />
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="blog-single.html"
+                    >50 Greatest Event Places in United Kingdom</a
+                  >
+                </h4>
+                <ul class="card-meta d-flex flex-wrap align-items-center">
+                  <li>25 Dec, 2018</li>
+                  <li><span class="mx-1">-</span></li>
+                  <li><a href="blog-grid.html#">Tips & Tricks</a></li>
+                </ul>
+                <p class="card-text mt-3">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  eaque ipsa quae ab illo inventore
+                </p>
+                <div
+                  class="post-author d-flex align-items-center justify-content-between mt-3"
+                >
+                  <div>
+                    <img src="images/testi-img7.jpg" alt="" />
+                    <span>By</span>
+                    <a href="blog-grid.html#">David Wise</a>
+                  </div>
+                  <a href="blog-single.html">Read more</a>
+                </div>
+              </div>
+              <!-- end card-body -->
+            </div>
+            <!-- end card -->
+          </div>
+          <!-- end col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="card hover-y">
+              <a href="blog-single.html" class="card-image">
+                <img
+                  src="images/img-loading.jpg"
+                  data-src="images/img2.jpg"
+                  alt="blog image"
+                  class="card-img-top lazy"
+                />
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="blog-single.html"
+                    >Top 10 Best Clothing Shops In Sydney</a
+                  >
+                </h4>
+                <ul class="card-meta d-flex flex-wrap align-items-center">
+                  <li>25 Dec, 2018</li>
+                  <li><span class="mx-1">-</span></li>
+                  <li><a href="blog-grid.html#">Tips & Tricks</a></li>
+                </ul>
+                <p class="card-text mt-3">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  eaque ipsa quae ab illo inventore
+                </p>
+                <div
+                  class="post-author d-flex align-items-center justify-content-between mt-3"
+                >
+                  <div>
+                    <img src="images/testi-img7.jpg" alt="" />
+                    <span>By</span>
+                    <a href="blog-grid.html#">David Wise</a>
+                  </div>
+                  <a href="blog-single.html">Read more</a>
+                </div>
+              </div>
+              <!-- end card-body -->
+            </div>
+            <!-- end card -->
+          </div>
+          <!-- end col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="card hover-y">
+              <a href="blog-single.html" class="card-image">
+                <img
+                  src="images/img-loading.jpg"
+                  data-src="images/img3.jpg"
+                  alt="blog image"
+                  class="card-img-top lazy"
+                />
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="blog-single.html"
+                    >Top 15 Greatest Hotels In United States</a
+                  >
+                </h4>
+                <ul class="card-meta d-flex flex-wrap align-items-center">
+                  <li>25 Dec, 2018</li>
+                  <li><span class="mx-1">-</span></li>
+                  <li><a href="blog-grid.html#">Tips & Tricks</a></li>
+                </ul>
+                <p class="card-text mt-3">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  eaque ipsa quae ab illo inventore
+                </p>
+                <div
+                  class="post-author d-flex align-items-center justify-content-between mt-3"
+                >
+                  <div>
+                    <img src="images/testi-img7.jpg" alt="" />
+                    <span>By</span>
+                    <a href="blog-grid.html#">David Wise</a>
+                  </div>
+                  <a href="blog-single.html">Read more</a>
+                </div>
+              </div>
+              <!-- end card-body -->
+            </div>
+            <!-- end card -->
+          </div>
+          <!-- end col-lg-4 -->
+        </div>
+        <!-- end row -->
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center pagination-list">
+            <li class="page-item">
+              <a class="page-link" href="blog-grid.html#" aria-label="Previous">
+                <span aria-hidden="true" class="fal fa-angle-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="blog-grid.html#">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="blog-grid.html#">2</a></li>
+            <li class="page-item"><a class="page-link" href="blog-grid.html#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="blog-grid.html#" aria-label="Next">
+                <span aria-hidden="true" class="fal fa-angle-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end blog-area -->
+    <!-- ================================
+       START BLOG AREA
+================================= -->
+
+    <!-- ================================
+       START FOOTER AREA
+================================= -->
+    <section class="footer-area bg-gray padding-top-80px pattern-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <a href="index.html" class="footer-logo mb-4 d-inline-block"
+                ><img src="images/logo2.png" alt="logo"
+              /></a>
+              <p class="mb-4">
+                Morbi convallis bibendum urna ut viverra. Maecenas quis
+                consequat libero, a feugiat eros
+              </p>
+              <div class="social-icons">
+                <a href="blog-grid.html#"><i class="fab fa-facebook-f"></i></a>
+                <a href="blog-grid.html#"><i class="fab fa-twitter"></i></a>
+                <a href="blog-grid.html#"><i class="fab fa-instagram"></i></a>
+                <a href="blog-grid.html#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <!-- end footer-item -->
+          </div>
+          <!-- end col-lg-3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer__title mb-3">Quick Links</h4>
+              <div class="stroke-shape mb-4"></div>
+              <ul class="list-items list-items-underline">
+                <li><a href="about.html">About us</a></li>
+                <li><a href="sign-up.html">Sign up</a></li>
+                <li><a href="login.html">Log in</a></li>
+                <li><a href="blog-grid.html#">Terms & Conditions</a></li>
+                <li><a href="blog-grid.html#">Privacy Policy</a></li>
+                <li><a href="blog-grid.html#">Help Center</a></li>
+              </ul>
+            </div>
+            <!-- end footer-item -->
+          </div>
+          <!-- end col-lg-3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer__title mb-3">Categories</h4>
+              <div class="stroke-shape mb-4"></div>
+              <ul class="list-items list-items-underline">
+                <li><a href="blog-grid.html#">Shops</a></li>
+                <li><a href="blog-grid.html#">Hotels</a></li>
+                <li><a href="blog-grid.html#">Restaurants</a></li>
+                <li><a href="blog-grid.html#">Bars</a></li>
+                <li><a href="blog-grid.html#">Events</a></li>
+                <li><a href="blog-grid.html#">Fitness</a></li>
+              </ul>
+            </div>
+            <!-- end footer-item -->
+          </div>
+          <!-- end col-lg-3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer__title mb-3">Contact with Us</h4>
+              <div class="stroke-shape mb-4"></div>
+              <ul class="info-list">
+                <li>
+                  <span class="fal fa-home icon me-2"></span> 32770 Grand River Ave Suite No:206 B, Farmington Hills, MI 48336, United States 
+                </li>
+                <li>
+                  <span class="fal fa-headphones icon me-2"></span>
+                  <a href="blog-grid.html#"> +1 734-928-2001 </a>
+                </li>
+                <li>
+                  <span class="fal fa-envelope icon me-2"></span>
+                  <a href="blog-grid.html#">info@chaodesi.com</a>
+                </li>
+              </ul>
+            </div>
+            <!-- end footer-item -->
+          </div>
+          <!-- end col-lg-3 -->
+        </div>
+        <!-- end row -->
+        <hr class="border-top-gray" />
+        <div
+          class="copy-right d-flex flex-wrap align-items-center justify-content-between pb-4"
+        >
+          <p class="copy__desc py-2">
+            &copy; Copyright 2024  Chao Desi | All Rights Reserved
+            
+           
+          </p>
+          <select
+            class="select-picker select-picker-sm"
+            data-width="130"
+            data-size="5"
+          >
+            <option value="1" selected>English</option>
+            <option value="2">French</option>
+            <option value="3">Czech</option>
+            <option value="4">German</option>
+            <option value="5">Italian</option>
+            <option value="6">Turkish</option>
+          </select>
+        </div>
+        <!-- end copy-right -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end footer-area -->
+    <!-- ================================
+       START FOOTER AREA
+================================= -->
+
+    <!-- start back-to-top -->
+    <div id="back-to-top">
+      <i class="fal fa-angle-up" title="Go top"></i>
+    </div>
+    <!-- end back-to-top -->
+
+    <!-- Template JS Files -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/jquery.lazy.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
